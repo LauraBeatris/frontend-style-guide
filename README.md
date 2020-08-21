@@ -383,20 +383,20 @@ The function should trigger the termination as soon as possible in case of diver
 ❌ Bad
 ```
 function someFunction(someCondition) {
-    if (someCondition) {
-        // Do something
-    }
+  if (someCondition) {
+      // Do something
+  }
 }
 ```
 
 ✅ Good
 ```
 function someFunction(someCondition) {
-    if (!someCondition) {
-        return
-    }
+  if (!someCondition) {
+      return
+  }
 
-    // Do something
+  // Do something
 }
 ```
 
